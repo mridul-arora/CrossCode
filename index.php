@@ -72,7 +72,7 @@
         color: white;
         cursor: pointer;
         font-family: sans-serif;
-        font-size: 125%;
+        font-size: 115%;
 
 /*Disable Selection*/
         -moz-user-select: none;
@@ -107,14 +107,15 @@
         float: left;
         /* background-color:white;*/
         background: rgba(255, 255, 255, 0.8);
-        border: 1px solid white;
+        border: 1px solid #8d775f;
         width: 86rem;
         /*94-8*/
         position: absolute;
         height: 42rem;
         /*48-6*/
         color: black;
-        box-shadow: 7px 15px 70px 10px coral;
+        box-shadow: 10px 5px 35px 7px #8d775f;
+        /*shadow colour is #8d775f*/
     }
 
     .vl {
@@ -129,19 +130,19 @@
     /*CSS of crosscode Units begins*/
 
     .crossrow {
-        height: 2.4em;
+        height: 2.63em;
         width: 100%;
-        background-color: brown;
+        background-color: ;
         margin-top: 1.2px;
         padding-left: 12px;
         padding-right: 12px;
     }
 
     .unit {
-        height: 2.4em;
-        width: 2.4em;
+        height: 2.41em;
+        width: 2.41em;
         float: left;
-        background-color: aqua;
+        background-color: ;
         margin-left: 1px;
     }
 
@@ -149,6 +150,9 @@
         width: 100%;
         height: 100%;
         text-align: center;
+    }
+    .letter:hover{
+         transform: scale(1.3);
     }
 
     .subset {
@@ -203,18 +207,10 @@
                     <!--1-->
                     <div class="crossrow">
 
-                        <!--it contains some data-->
                         <!--1-->
-                        <div class="unit">
-                            <span class="subset"></span>
-                            <span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span>
-                        </div>
-
-                        <!--its blank-->
+                        <div class="unit"></div>
                         <!--2-->
-                        <div class="unit">
-                            <span class="nodata"></span>
-                        </div>
+                        <div class="unit"></div>
                         <!--3-->
                         <div class="unit"></div>
                         <!--4-->
@@ -236,7 +232,273 @@
                         <!--12-->
                         <div class="unit"></div>
                         <!--13-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--14-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--15-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--16-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--17-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--18-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--19-->
                         <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+
+                    </div>
+                    <!--2-->
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"></div>
+                        <!--12-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--13-->
+                        <div class="unit"></div>
+                        <!--14-->
+                        <div class="unit"></div>
+                        <!--15-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--16-->
+                        <div class="unit"></div>
+                        <!--17-->
+                        <div class="unit"></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+                    </div>
+                    <!--3-->
+                    <div class="crossrow">
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"></div>
+                        <!--12-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--13-->
+                        <div class="unit"></div>
+                        <!--14-->
+                        <div class="unit"></div>
+                        <!--15-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--16-->
+                        <div class="unit"></div>
+                        <!--17-->
+                        <div class="unit"></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+
+                    </div>
+                    <!--4-->
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"></div>
+                        <!--12-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--13-->
+                        <div class="unit"></div>
+                        <!--14-->
+                        <div class="unit"></div>
+                        <!--15-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--16-->
+                        <div class="unit"></div>
+                        <!--17-->
+                        <div class="unit"></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+</div>
+                    <!--5-->
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"></div>
+                        <!--12-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--13-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--14-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--15-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--16-->
+                        <div class="unit"></div>
+                        <!--17-->
+                        <div class="unit"></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+</div>
+                    <!--6-->
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--12-->
+                        <div class="unit"></div>
+                        <!--13-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--14-->
                         <div class="unit"></div>
                         <!--15-->
@@ -260,30 +522,272 @@
                         <!--24-->
                         <div class="unit"></div>
 
-
-                    </div>
-                    <!--2-->
-                    <div class="crossrow"></div>
-                    <!--3-->
-                    <div class="crossrow"></div>
-                    <!--4-->
-                    <div class="crossrow"></div>
-                    <!--5-->
-                    <div class="crossrow"></div>
-                    <!--6-->
-                    <div class="crossrow"></div>
+</div>
                     <!--7-->
-                    <div class="crossrow"></div>
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"></div>
+                        <!--10-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--11-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--12-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--13-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--14-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--15-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--16-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--17-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+</div>
                     <!--8-->
-                    <div class="crossrow"></div>
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--12-->
+                        <div class="unit"></div>
+                        <!--13-->
+                        <div class="unit"></div>
+                        <!--14-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--15-->
+                        <div class="unit"></div>
+                        <!--16-->
+                        <div class="unit"></div>
+                        <!--17-->
+                        <div class="unit"></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+</div>
                     <!--9-->
-                    <div class="crossrow"></div>
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--10-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--11-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--12-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--13-->
+                        <div class="unit"></div>
+                        <!--14-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--15-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--16-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--17-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--18-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+</div>
                     <!--10-->
-                    <div class="crossrow"></div>
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--8-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--9-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"></div>
+                        <!--12-->
+                        <div class="unit"></div>
+                        <!--13-->
+                        <div class="unit"></div>
+                        <!--14-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--15-->
+                        <div class="unit"></div>
+                        <!--16-->
+                        <div class="unit"></div>
+                        <!--17-->
+                        <div class="unit"></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+</div>
                     <!--11-->
-                    <div class="crossrow"></div>
-                    <!--12-->
-                    <div class="crossrow"></div>
+                    <div class="crossrow">
+
+                     <!--1-->
+                        <div class="unit"></div>
+                        <!--2-->
+                        <div class="unit"></div>
+                        <!--3-->
+                        <div class="unit"></div>
+                        <!--4-->
+                        <div class="unit"></div>
+                        <!--5-->
+                        <div class="unit"></div>
+                        <!--6-->
+                        <div class="unit"></div>
+                        <!--7-->
+                        <div class="unit"></div>
+                        <!--8-->
+                        <div class="unit"></div>
+                        <!--9-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--10-->
+                        <div class="unit"></div>
+                        <!--11-->
+                        <div class="unit"></div>
+                        <!--12-->
+                        <div class="unit"></div>
+                        <!--13-->
+                        <div class="unit"></div>
+                        <!--14-->
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <!--15-->
+                        <div class="unit"></div>
+                        <!--16-->
+                        <div class="unit"></div>
+                        <!--17-->
+                        <div class="unit"></div>
+                        <!--18-->
+                        <div class="unit"></div>
+                        <!--19-->
+                        <div class="unit"></div>
+                        <!--20-->
+                        <div class="unit"></div>
+                        <!--21-->
+                        <div class="unit"></div>
+                        <!--22-->
+                        <div class="unit"></div>
+                        <!--23-->
+                        <div class="unit"></div>
+                        <!--24-->
+                        <div class="unit"></div>
+
+</div>
 
                 </div>
             </div>
@@ -299,41 +803,45 @@
             <div class="left">
                 <div id="ques1">
                     <pre class="question">
-Ques 1>
-#include&lt;iostream&gt;
-using namespace std;
+<h3>Question-1:</h3>
+#include &lt;stdio.h&gt;
 int main()
 {
-    if (!(cout &lt;&lt; "crosscode"))
-       cout &lt;&lt;" cross ";
-    else
-       cout &lt;&lt; "code ";
-
-    return 0;
+     switch(*(1+"AB" "CD"+1)){
+        case 'A':printf("among");
+                  break;
+        case 'B':printf("after");
+                  break;
+        case 'C':printf("above");
+                  break;
+        case 'D':printf("below");
+ }
+return 0;
 }
+<h3>Across 1</h3>
                 </pre>
                 </div>
                 <div id="ques2">
                     <pre class="question">
-Ques 2>
+<h3>Question-2:</h3>
+#include &lt;iostream&gt;
+#include &lt;cstring&gt;
+using namespace std;
 
-#include &lt;stdio.h&gt;
 int main()
 {
-unsigned int n = 1;
-char *c = (char*)&amp;n;
-if (*c)
-	printf("code");
-else
-	printf("well");
-return 0;
+    char s1[] = "justypedonthink";
+    char s2 = 'd';
+    char *ptr = strchr( s1, s2);
+    cout &lt;&lt; ptr;
+    return 0;
 }
 
-                </pre>
+<h3>Down 2</h3>
+                    </pre>
                 </div>
                 <div id="ques3">
                     <pre class="question">
-Ques 3>
 
                 </pre>
                 </div>
