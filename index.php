@@ -63,6 +63,9 @@
         cursor: pointer;
         font-family: sans-serif;
         font-size: 115%;
+        border:black;
+        box-shadow: -10px 10px 5px #aaaaaa;
+
 /*Disable Selection*/
         -moz-user-select: none;
         /* Firefox */
@@ -131,9 +134,11 @@
         width: 100%;
         height: 100%;
         text-align: center;
+        background-color: ;
     }
     .letter:hover{
          transform: scale(1.3);
+        background-color: ;
     }
     .subset {
         font-size: 10px;
@@ -141,6 +146,10 @@
         vertical-align: sub;
     }
     /*CSS of crosscode Units ends*/
+
+    ::placeholder{
+        font-size: 85%;
+    }
 </style>
 
 <body>
@@ -210,11 +219,11 @@
                         <!--12-->
                         <div class="unit"></div>
                         <!--13-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="12"></span></div>
                         <!--14-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="1"></span></div>
                         <!--16-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--17-->
@@ -262,7 +271,7 @@
                         <!--11-->
                         <div class="unit"></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="11"></span></div>
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
@@ -421,9 +430,9 @@
                         <!--11-->
                         <div class="unit"></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="5"></span></div>
                         <!--13-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="9"></span></div>
                         <!--14-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--15-->
@@ -472,7 +481,7 @@
                         <!--10-->
                         <div class="unit"></div>
                         <!--11-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="7"></span></div>
                         <!--12-->
                         <div class="unit"></div>
                         <!--13-->
@@ -523,7 +532,7 @@
                         <!--9-->
                         <div class="unit"></div>
                         <!--10-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="2"></span></div>
                         <!--11-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--12-->
@@ -531,7 +540,7 @@
                         <!--13-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="6"></span></div>
                         <!--15-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--16-->
@@ -627,7 +636,7 @@
                         <!--8-->
                         <div class="unit"></div>
                         <!--9-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="10\3"></span></div>
                         <!--10-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--11-->
@@ -637,7 +646,7 @@
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="4"></span></div>
                         <!--15-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--16-->
@@ -676,7 +685,7 @@
                         <!--6-->
                         <div class="unit"></div>
                         <!--7-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="8"></span></div>
                         <!--8-->
                         <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
                         <!--9-->
@@ -796,7 +805,7 @@ int main()
  }
 return 0;
 }
-<h3>Across 1</h3>
+<h3>Down 1</h3>
                 </pre>
                 </div>
                 <div id="ques2">
@@ -815,85 +824,181 @@ int main()
     return 0;
 }
 
-<h3>Down 2</h3>
+<h3>Across 2</h3>
                     </pre>
                 </div>
                 <div id="ques3">
                     <pre class="question">
+<h3>Question-3:</h3>
+#include &lt;stdio.h&gt;
+int main()
+{
+unsigned int n = 1;
+char *c = (char*)&amp;n;
+if (*c)
+	printf("code");
+else
+	printf("well");
+return 0;
+}
 
+<h3>Across 3</h3>
                 </pre>
                 </div>
                 <div id="ques4">
                     <pre class="question">
-Ques 4>
+<h3>Question-4:</h3>
+void main(){
+   char *str="pointer";
+   printf("%*.*s",10,4,str);
+}
+<h3>Across 4</h3>
                 </pre>
                 </div>
                 <div id="ques5">
                     <pre class="question">
-Ques 5>
+<h3>Question-5:</h3>
+#define call(x) #x
+void main(){
+   printf("%s",call(done));
+}
+<h3>Across 5</h3>
 
                 </pre>
                 </div>
                 <div id="ques6">
                     <pre class="question">
-Ques 6>
-
+<h3>Question-6:</h3>
+void main(){
+   if(printf("happ"))
+      printf("y");
+   else
+      printf("iness");
+}
+<h3>Down 6</h3>
                 </pre>
                 </div>
                 <div id="ques7">
                     <pre class="question">
-Ques 7>
-#include&lt;iostream&gt;
-using namespace std;
+<h3>Question-7:</h3>
+#include&lt;stdio.h&gt;
 int main()
 {
-    if (!(cout &lt;&lt; "crosscode"))
-       cout &lt;&lt;" cross ";
-    else
-       cout &lt;&lt; "code ";
-
-    return 0;
+int q= 3;
+int u= 3;
+int o= 5;
+int n= ++q + u*o + u++;
+switch(n) {
+case 22: printf("word");
+break;
+case 21: printf("game");
+break;
+case 70: printf("puzzle");
 }
-                </pre>
+<h3>Down 7</h3>
+                    </pre>
                 </div>
                 <div id="ques8">
                     <pre class="question">
-Ques 8>
-
+<h3>Question-8:</h3>
+#include &lt;iostream&gt;
+using namespace std;
+int main()
+{
+int j; char ch2;
+char ch [ 8 ] = {'a','Z','c','b','m','a'};
+for (j = 0; j &lt; 6; ++j )
+{
+if (j%2==0)
+printf ("&#37;c", ch [ j ]);
+else
+ch2 = ch [ j ];
+}
+return 0;
+}
+<h3>Across 8</h3>
                 </pre>
                 </div>
                 <div id="ques9">
                     <pre class="question">
-Ques 9>
-#include&lt;iostream&gt;
+<h3>Question-9:</h3>
+#include &lt;iostream&gt;
 using namespace std;
-int main()
-{
-    if (!(cout &lt;&lt; "crosscode"))
-       cout &lt;&lt;" cross ";
-    else
-       cout &lt;&lt; "code ";
+class Base {
+    virtual void method() {std::cout &lt;&lt;
+    "t" ;}
+public:
+    virtual ~Base() {method(); }
+    void baseMethod() {method(); }
+};
 
+class A : public Base {
+    void method() {std::cout &lt;&lt; "o"; }
+public:
+    ~A() {method();}
+};
+
+int main(void) {
+    Base* base = new A;
+    base->baseMethod();
+    delete base;
     return 0;
 }
+<h3>Down 9</h3>
                 </pre>
                 </div>
                 <div id="ques10">
                     <pre class="question">
-Ques 10>
-
+<h3>Question-10:</h3>
+#include &lt;stdio.h&gt;
+#include &lt;ctype.h&gt;
+int main()
+{
+char hint [ 4 ] = {'l', 'i', 'c', 'c'};
+char a,b,c,d;
+a= hint [ 3 ] + 1;
+b = a + 5;
+c= b + 4;
+printf ("%c%c%c", hint [ 2 ],c,a);
+return 0;
+}
+<h3>Down 10</h3>
                 </pre>
                 </div>
                 <div id="ques11">
                     <pre class="question">
-Ques 11>
-
+<h3>Question-11:</h3>
+#include &lt;stdio.h&gt;
+int main()
+{
+int i = 7;
+float j = 7.989;
+if (i == j)
+printf ("squares");
+else
+printf ("grid");
+return 0;
+}
+<h3>Down 11</h3>
                 </pre>
                 </div>
                 <div id="ques12">
                     <pre class="question">
-Ques 12>
-
+<h3>Question-12:</h3>
+#include &lt;iostream&gt;
+using namespace std;
+int main ()
+{
+char* former = "squares";
+int* prez;
+int USA [ ] = { 10, 1, 70, 19 };
+prez = USA;
+former++;
+prez++;
+cout &lt;&lt; former &lt;&lt; endl;
+return 0;
+}
+<h3>Across 12</h3>
                 </pre>
                 </div>
             </div>
@@ -915,7 +1020,6 @@ Ques 12>
             </div>
         </div>
     </div>
-
 
 
     <script type="text/javascript" src="assets/js/showques.js"></script>
