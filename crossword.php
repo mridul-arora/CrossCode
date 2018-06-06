@@ -11,7 +11,7 @@ $a=$_SESSION['u_id'];
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-        Main Page
+        CrossCode
     </title>
 </head>
 <style>
@@ -167,7 +167,7 @@ $a=$_SESSION['u_id'];
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-                <a class="navbar-brand" href="#">WebSiteName</a>
+                <a class="navbar-brand" href="#">CrossCode 2.0</a>
             </div>
 
 
