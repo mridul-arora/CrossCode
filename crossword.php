@@ -19,7 +19,7 @@ $a=$_SESSION['u_id'];
         cursor: pointer;
     }
     .thiscontainer {
-        margin-top: 6vh;
+        margin-top: 3vh;
         margin-bottom: 2vh;
         height: 80%;
         width: auto;
@@ -154,6 +154,11 @@ $a=$_SESSION['u_id'];
     ::placeholder{
         font-size: 85%;
     }
+    #submit{
+        margin-top: 51rem;
+        margin-left: 16.7em;
+        padding: 0.55em 14.5em;
+    }
 </style>
 
 <body>
@@ -162,11 +167,6 @@ $a=$_SESSION['u_id'];
     <nav class='navbar navbar-inverse navar-fixed-top'>
         <div class='container-fluid'>
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
                 <a class="navbar-brand" href="#">CrossCode 2.0</a>
             </div>
 
@@ -179,10 +179,10 @@ $a=$_SESSION['u_id'];
         <!--this is the 9/12th crosscrode part-->
         <div class="col-md-9 insidecontainer">
 
+            <form method="POST" action="points.php">
              <!--the puzzle with puzzle border-->
             <div class="puzzleborder">
                 <div class="puzzle">
-<form method="POST" action="points.php">
                     <!--Crossword Rows-->
                     <!--1-->
                     <div class="crossrow">
@@ -768,14 +768,16 @@ $a=$_SESSION['u_id'];
                         <div class="unit"></div>
 
 </div>
-<button type="submit" class="btn btn-primary" name="sub">Submit</button>
-                    </form>
+
                 </div>
             </div>
 
 
             <!--the vertical line-->
             <div class="vl"></div>
+            <button type="submit" class="btn btn-primary" id="submit" name="sub">Submit</button>
+            </form>
+
         </div>
 
         <!--this is the questions 3/12th part-->
@@ -1015,7 +1017,6 @@ return 0;
             </div>
         </div>
     </div>
-
 
 
     <script type="text/javascript" src="assets/js/showques.js"></script>
