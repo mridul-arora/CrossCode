@@ -212,17 +212,17 @@ $a=$_SESSION['u_id'];
                         <!--12-->
                         <div class="unit"></div>
                         <!--13-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="12"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array1[]" autocomplete="off" value="" placeholder="12"></span></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array1[]" autocomplete="off" value=""></span></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="1"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array1[]" autocomplete="off" value="" placeholder="1"></span></div>
                         <!--16-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array1[]" autocomplete="off" value=""></span></div>
                         <!--17-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array1[]" autocomplete="off" value=""></span></div>
                         <!--18-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array1[]" autocomplete="off" value=""></span></div>
                         <!--19-->
                         <div class="unit"></div>
                         <!--20-->
@@ -264,13 +264,13 @@ $a=$_SESSION['u_id'];
                         <!--11-->
                         <div class="unit"></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="11"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array2[]" autocomplete="off" value="" placeholder="11"></span></div>
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
                         <div class="unit"></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array3[]" autocomplete="off" value=""></span></div>
                         <!--16-->
                         <div class="unit"></div>
                         <!--17-->
@@ -316,13 +316,13 @@ $a=$_SESSION['u_id'];
                         <!--11-->
                         <div class="unit"></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array2[]" autocomplete="off" value=""></span></div>
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
                         <div class="unit"></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array3[]" autocomplete="off" value=""></span></div>
                         <!--16-->
                         <div class="unit"></div>
                         <!--17-->
@@ -370,13 +370,13 @@ $a=$_SESSION['u_id'];
                         <!--11-->
                         <div class="unit"></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array2[]" autocomplete="off" value=""></span></div>
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
                         <div class="unit"></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array3[]" autocomplete="off" value=""></span></div>
                         <!--16-->
                         <div class="unit"></div>
                         <!--17-->
@@ -423,13 +423,13 @@ $a=$_SESSION['u_id'];
                         <!--11-->
                         <div class="unit"></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="5"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array2[]" autocomplete="off" value="" placeholder="5"></span></div>
                         <!--13-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="9"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array4[]" autocomplete="off" value="" placeholder="9"></span></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array4[]" autocomplete="off" value=""></span></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array3[]" autocomplete="off" value=""></span></div>
                         <!--16-->
                         <div class="unit"></div>
                         <!--17-->
@@ -474,11 +474,11 @@ $a=$_SESSION['u_id'];
                         <!--10-->
                         <div class="unit"></div>
                         <!--11-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="7"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array12[]" autocomplete="off" value="" placeholder="7"></span></div>
                         <!--12-->
                         <div class="unit"></div>
                         <!--13-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array6[]" autocomplete="off" value=""></span></div>
                         <!--14-->
                         <div class="unit"></div>
                         <!--15-->
@@ -525,21 +525,21 @@ $a=$_SESSION['u_id'];
                         <!--9-->
                         <div class="unit"></div>
                         <!--10-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="2"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value="" placeholder="2"></span></div>
                         <!--11-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value=""></span></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value=""></span></div>
                         <!--13-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value=""></span></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="6"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value="" placeholder="6"></span></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value=""></span></div>
                         <!--16-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value=""></span></div>
                         <!--17-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array5[]" autocomplete="off" value=""></span></div>
                         <!--18-->
                         <div class="unit"></div>
                         <!--19-->
@@ -580,13 +580,13 @@ $a=$_SESSION['u_id'];
                         <!--10-->
                         <div class="unit"></div>
                         <!--11-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array13[]" autocomplete="off" value=""></span></div>
                         <!--12-->
                         <div class="unit"></div>
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array10[]" autocomplete="off" value=""></span></div>
                         <!--15-->
                         <div class="unit"></div>
                         <!--16-->
@@ -629,25 +629,25 @@ $a=$_SESSION['u_id'];
                         <!--8-->
                         <div class="unit"></div>
                         <!--9-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="10\3"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array7[]" autocomplete="off" value="" placeholder="10\3"></span></div>
                         <!--10-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array7[]" autocomplete="off" value=""></span></div>
                         <!--11-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array7[]" autocomplete="off" value=""></span></div>
                         <!--12-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array7[]" autocomplete="off" value=""></span></div>
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="4"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array10[]" autocomplete="off" value="" placeholder="4"></span></div>
                         <!--15-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array11[]" autocomplete="off" value=""></span></div>
                         <!--16-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array11[]" autocomplete="off" value=""></span></div>
                         <!--17-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array11[]" autocomplete="off" value=""></span></div>
                         <!--18-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array11[]" autocomplete="off" value=""></span></div>
                         <!--19-->
                         <div class="unit"></div>
                         <!--20-->
@@ -678,11 +678,11 @@ $a=$_SESSION['u_id'];
                         <!--6-->
                         <div class="unit"></div>
                         <!--7-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value="" placeholder="8"></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array8[]" autocomplete="off" value="" placeholder="8"></span></div>
                         <!--8-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array8[]" autocomplete="off" value=""></span></div>
                         <!--9-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array8[]" autocomplete="off" value=""></span></div>
                         <!--10-->
                         <div class="unit"></div>
                         <!--11-->
@@ -692,7 +692,7 @@ $a=$_SESSION['u_id'];
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array10[]" autocomplete="off" value=""></span></div>
                         <!--15-->
                         <div class="unit"></div>
                         <!--16-->
@@ -735,7 +735,7 @@ $a=$_SESSION['u_id'];
                         <!--8-->
                         <div class="unit"></div>
                         <!--9-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array9[]" autocomplete="off" value=""></span></div>
                         <!--10-->
                         <div class="unit"></div>
                         <!--11-->
@@ -745,7 +745,7 @@ $a=$_SESSION['u_id'];
                         <!--13-->
                         <div class="unit"></div>
                         <!--14-->
-                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array[]" autocomplete="off" value=""></span></div>
+                        <div class="unit"><span class="data"><input type="text" maxlength="1" class="letter" name="array10[]" autocomplete="off" value=""></span></div>
                         <!--15-->
                         <div class="unit"></div>
                         <!--16-->
