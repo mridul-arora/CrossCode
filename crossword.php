@@ -1,21 +1,15 @@
-<?php include "assets/parts/includes.php";?>
-<!DOCTYPE html>
 <?php
 session_start();
-$a=$_SESSION['u_id'];
 ?>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>
-        CrossCode
-    </title>
-</head>
+<script>
+    window.onbeforeunload = function() { return "You cannot go back now, you will be disqualified othere"; };
+</script>
+<?php include "includes/bootstrap.php";?>
 <style>
-    body {
+    
+    body{
+        background-image: url("assets/images/scrabble.jpg");
+        background-size: cover;
         cursor: pointer;
     }
     .thiscontainer {
@@ -83,6 +77,7 @@ $a=$_SESSION['u_id'];
         /* Disable Android and iOS callouts*/
     }
     .puzzleborder {
+        border: 1px solid red;
         margin-bottom: 5px;
         margin-top: 5px;
         margin-left: -1em;
@@ -159,27 +154,67 @@ $a=$_SESSION['u_id'];
         margin-left: 16.7em;
         padding: 0.55em 14.5em;
     }
+    .countdownContainer{
+			position: relative;
+			top: 5%;
+			left: 50%;
+			transform : translateX(-50%);
+			text-align: center;
+			background: #9e42f4;
+			border: 1px solid #999;
+			padding: 10px;
+			box-shadow: 0 0 5px 3px #ccc;
+            border: 1px solid black;
+		}
+
+		.info {
+			font-size: 35px;
+		}
+
+
+
 </style>
-
 <body>
-    <!--Navigation Bar-->
-    <!--Ignore this Navigation bar, its from my old project-->
-    <nav class='navbar navbar-inverse navar-fixed-top'>
-        <div class='container-fluid'>
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">CrossCode 2.0</a>
-            </div>
+    <table class="countdownContainer" >
+			<tr class="info">
+				<td colspan="4">Remaining Time</td>
+			</tr>
+			<tr class="info">
 
+				<td id="minutes">30</td>
+				<td id="seconds">00</td>
+			</tr>
+			<tr>
+				
+				<td>Minutes</td>
+				<td>Seconds</td>
+			</tr>
+    </table>
+    <script>
+        var eventTime = (new Date().getTime()) +1800000;
+        function countdown(){ 
+                var now = new Date();
+                var currentTiime = now.getTime();
+				var remTime = eventTime - currentTiime;
+                var s = Math.floor(remTime / 1000);
+				var m = Math.floor(s / 60);
+                m %= 60;
+				s %= 60;
+                m = (m < 10) ? "0" + m : m;
+				s = (s < 10) ? "0" + s : s;
+                document.getElementById("minutes").textContent = m;
+				document.getElementById("seconds").textContent = s;
+                setTimeout(countdown, 1000);
+			}
 
-        </div>
-    </nav>
-
+			countdown();
+    </script>
     <div class="container-fluid thiscontainer">
 
         <!--this is the 9/12th crosscrode part-->
         <div class="col-md-9 insidecontainer">
 
-            <form method="POST" action="points.php">
+            <form id="form1" method="POST" action="points.php" >
              <!--the puzzle with puzzle border-->
             <div class="puzzleborder">
                 <div class="puzzle">
@@ -1032,6 +1067,18 @@ return 0;
             });
         }
     </script>
+    
 </body>
-
-</html>
+<script>
+    function time_check()
+    {
+        alert('Hurry, you have less than 2 min remaining');
+        
+    }
+    function auto_submit(){
+            document.getElementById("submit").disabled = true;
+            }
+    setTimeout(time_check, 1680000);
+    setTimeout(auto_submit, 1800000)
+    
+    </script>

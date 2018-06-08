@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color:black;
+}
+.container>.row{
+    text-align: center;
+}
+#typed{
+    color: white;
+    font-size: 4rem;
+    
+}
+.container{
+    position: absolute;
+    top: 30%;
+}

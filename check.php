@@ -1,24 +1,47 @@
 <?php
-$con=mysqli_connect("localhost","root","","final");
-$plogin="false";
-if(isset($_POST['sub']))
-{
-    $a=$_POST['uname'];
-    $b=$_POST['psw'];
-    $query=mysqli_query($con,"SELECT* FROM user WHERE user_id='$a' AND password='$b'");
-    if(mysqli_num_rows($query)==1 )
-        {
-            $plogin="true";
-            session_start();
-            $_SESSION['u_id']=$a;
-            header("Location:crossword.php");
+session_start();
+    if(isset($_POST['uname'],$_POST['pwd']))
+    {
+        $uname = $_POST['uname'];
+        $pwd = $_POST['pwd'];
+        
+        $conn = mysqli_connect('localhost','root','','crosscode');
+        $query = "SELECT * FROM `users` WHERE `uname`='".mysqli_real_escape_String($conn,$uname)."'AND `pwd`='".mysqli_real_escape_String($conn,$pwd)."'" ;
+        $result=mysqli_query($conn,$query);
+        if (mysqli_num_rows($result)) {
+            while($row=mysqli_fetch_assoc($result))
+            {
+                $attempt=$row['attempt'];
+            }
+            if($attempt == 0)
+            {
+                $usql = "UPDATE `users` SET `attempt`='1' WHERE `uname`='".mysqli_real_escape_String($conn,$uname)."'";
+                mysqli_query($conn,$usql);
+
+                $_SESSION['id']=$uname;
+                mysqli_close($conn);
+                header("Location:crossword.php");
+                
+            }
+            else
+            {
+                header("Location:index.php");
+            }
         }
-     else
+    }
+        else
         {
              echo "<script>
 						alert('Wrong username or password');
 						window.location.href='index.php';
 						</script>";
         }
-}
+
+        
+        
+        
+    
+
+    
+
 ?>

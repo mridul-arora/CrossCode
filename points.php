@@ -1,7 +1,6 @@
 <?php
-$con=mysqli_connect("localhost","root","","final");
 session_start();
-$a=$_SESSION['u_id'];
+
 $point=0;
 if(isset($_POST['array1'])){
    $a1=$_POST['array1'];
@@ -101,9 +100,10 @@ if(isset($_POST['array12']) && isset($_POST['array13'])){
 
 }
 
-        $query1=mysqli_query($con,"INSERT INTO score (user_id,points) VALUES('$a','$point')");
-
-echo "Points=";
-echo $point;
-unset($_SESSION['u_id']);
+$_SESSION['points']=$point;
+$conn = mysqli_connect('localhost','root','','crosscode');
+$isql = "UPDATE `users` SET `score`='".$_SESSION['points']."' WHERE `uname`='".$_SESSION['id']."'";
+mysqli_query($conn,$isql);
+mysqli_close($conn);
+header("Location:score.php");
 ?>
