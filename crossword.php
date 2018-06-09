@@ -8,61 +8,57 @@ session_start();
 <style>
     
     body{
-        background-image: url("assets/images/scrabble.jpg");
-        background-size: cover;
+        background-image: /*url("assets/images/scrabble.jpg")*/;
+        background-size:cover;
         cursor: pointer;
     }
     .thiscontainer {
-        margin-top: 3vh;
-        margin-bottom: 2vh;
         height: 80%;
         width: auto;
-        background-color: ;
     }
     .insidecontainer {
         margin-bottom: 5px;
         margin-top: 5px;
     }
+    .col-md-9{
+        margin-top: 13vh;
+    }
     .row {
         padding: 0.75em 0.75em;
         margin-right: -2.05em;
         text-align: center;
-        background-color: aliceblue;
+        background-color: #f4d06f;
         color: #3e505b;
         cursor: pointer;
         font-weight: bold;
     }
     .active,
     .row:hover {
-        background-color: #666;
+        background-color:#153243;
         color: white;
-    }
-        {
-        background-color: #3e505b;
-        color: aliceblue;
     }
     .right {
         margin-bottom: 5px;
         margin-top: 5px;
         float: right;
-        background-color: chartreuse;
         border: 20px bold black;
         position: relative;
+        font-weight: bold;
     }
     .question {
         margin-bottom: 5px;
         margin-top: 5px;
         float: left;
-        background-color: darkcyan;
+        background-color: #153243;
         width: 100%;
         position: absolute;
-        height: 49rem;
+        height: 49.2rem;
         color: white;
         cursor: pointer;
         font-family: sans-serif;
         font-size: 115%;
-        border:black;
-        box-shadow: -10px 10px 5px #aaaaaa;
+        box-shadow: -1px 1px 5px #2C497F;
+        border: 1px solid #153243;
 
 /*Disable Selection*/
         -moz-user-select: none;
@@ -95,13 +91,13 @@ session_start();
         float: left;
         /* background-color:white;*/
         background: rgba(255, 255, 255, 0.8);
-        border: 1px solid #8d775f;
         width: 86rem;
         /*94-8*/
         position: absolute;
         height: 42rem;
         /*48-6*/
         color: black;
+        border: 1px solid #8d775f;
         box-shadow: 10px 5px 35px 7px #8d775f;
         /*shadow colour is #8d775f*/
     }
@@ -153,62 +149,41 @@ session_start();
         margin-top: 51rem;
         margin-left: 16.7em;
         padding: 0.55em 14.5em;
+        background-color: #f4d06f;
+        border: 1px solid #f4d06f/*#71a2af*/;
+        color:black;
+        font-weight: bold;
+    }
+    h3{
+      color: #f4d06f;
+    }
+    #submit:hover{
+        background-color: #153243;
+        border: 1px solid #153243;
+        font-weight: bold;
+        color:white;
     }
     .countdownContainer{
-			position: relative;
-			top: 5%;
-			left: 50%;
-			transform : translateX(-50%);
-			text-align: center;
-			background: #9e42f4;
-			border: 1px solid #999;
-			padding: 10px;
-			box-shadow: 0 0 5px 3px #ccc;
-            border: 1px solid black;
+        text-align: center;
+        float: right;
+        margin-right:9rem;
+        margin-top: 13px;
+        background-color: #153243;
+        color: #f4d06f;
+        box-shadow: -1px 1px 5px #2C497F;
+         border: 1px solid #153243;
 		}
 
 		.info {
-			font-size: 35px;
+            font-family: sans-serif;
+            font-size: 115%;
+            color: #f4d06f;
 		}
 
 
 
 </style>
 <body>
-    <table class="countdownContainer" >
-			<tr class="info">
-				<td colspan="4">Remaining Time</td>
-			</tr>
-			<tr class="info">
-
-				<td id="minutes">30</td>
-				<td id="seconds">00</td>
-			</tr>
-			<tr>
-				
-				<td>Minutes</td>
-				<td>Seconds</td>
-			</tr>
-    </table>
-    <script>
-        var eventTime = (new Date().getTime()) +1800000;
-        function countdown(){ 
-                var now = new Date();
-                var currentTiime = now.getTime();
-				var remTime = eventTime - currentTiime;
-                var s = Math.floor(remTime / 1000);
-				var m = Math.floor(s / 60);
-                m %= 60;
-				s %= 60;
-                m = (m < 10) ? "0" + m : m;
-				s = (s < 10) ? "0" + s : s;
-                document.getElementById("minutes").textContent = m;
-				document.getElementById("seconds").textContent = s;
-                setTimeout(countdown, 1000);
-			}
-
-			countdown();
-    </script>
     <div class="container-fluid thiscontainer">
 
         <!--this is the 9/12th crosscrode part-->
@@ -814,10 +789,42 @@ session_start();
             </form>
 
         </div>
+<table class="countdownContainer" >
+			<tr class="info">
+				<td colspan="4">Remaining Time</td>
+			</tr>
+			<tr class="info">
 
+				<td id="minutes">30</td>
+				<td id="seconds">00</td>
+			</tr>
+			<tr>
+
+				<td>Minutes</td>
+				<td>Seconds</td>
+			</tr>
+    </table>
+    <script>
+        var eventTime = (new Date().getTime()) +1800000;
+        function countdown(){
+                var now = new Date();
+                var currentTiime = now.getTime();
+				var remTime = eventTime - currentTiime;
+                var s = Math.floor(remTime / 1000);
+				var m = Math.floor(s / 60);
+                m %= 60;
+				s %= 60;
+                m = (m < 10) ? "0" + m : m;
+				s = (s < 10) ? "0" + s : s;
+                document.getElementById("minutes").textContent = m;
+				document.getElementById("seconds").textContent = s;
+                setTimeout(countdown, 1000);
+			}
+
+			countdown();
+    </script>
         <!--this is the questions 3/12th part-->
         <div class="col-md-3 insidecontainer">
-
             <!--it displays the question-->
             <div class="left">
                 <div id="ques1">

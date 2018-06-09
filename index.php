@@ -49,24 +49,6 @@
             </div>
             <script src="assets/js/particles.js"></script>
             <script src="assets/js/particle/demo/js/app.js"particle></script>
-        
-        
-        
-        
-        
         </div>
-        
-        
-    
-    
-    
-    
-    
-    </body>
-
-
-
-
-
-
+        </body>
 </html>
