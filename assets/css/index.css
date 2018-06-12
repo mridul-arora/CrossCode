@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     height: 100vh;
+
     background-color:black;
 }
 .container>.row{
@@ -10,9 +11,27 @@ body{
 #typed{
     color: white;
     font-size: 4rem;
-    
+
 }
 .container{
     position: absolute;
-    top: 30%;
+    top: 10%;
+    right: 0;
+     left: 0;
+}
+#login{
+  padding: 50px;
+}
+p{
+  margin-top:-15px;
+  margin-bottom: -15PX;
+}
+pre{
+  opacity: 0.4;
+  font-family: cursive;
+  border-left: 2px;
+}
+form{
+  height: 250px;
+  width: 250px;
 }
