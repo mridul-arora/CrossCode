@@ -1,37 +1,47 @@
-body{
-    margin: 0px;
-    padding: 0px;
+body {
     height: 100vh;
-
-    background-color:black;
+    background-color: black;
 }
-.container>.row{
+
+.container > .row {
     text-align: center;
 }
-#typed{
+
+#typed {
     color: white;
     font-size: 4rem;
+    float:left;
+    margin-left: 10rem;
 
 }
-.container{
+
+.container {
     position: absolute;
     top: 10%;
     right: 0;
-     left: 0;
+    left: 0;
 }
-#login{
-  padding: 50px;
+
+#login {
+    margin: 2rem 0rem 0rem;
 }
-p{
-  margin-top:-15px;
-  margin-bottom: -15PX;
+
+p {
+    margin-top: -15px;
+    margin-bottom: -15PX;
 }
-pre{
-  opacity: 0.4;
-  font-family: cursive;
-  border-left: 2px;
+
+pre {
+    font-family: cursive;
+    border-left: 2px;
+    text-align: left;
 }
-form{
-  height: 250px;
-  width: 250px;
+
+form {
+    padding: 2rem 0rem;
+    width: 250px;
+    margin-left: 10rem;
+}
+#rule{
+    opacity: 1;
 }
