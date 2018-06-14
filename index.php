@@ -56,7 +56,11 @@
  *This is the Crossword Round.
  *There are 12 questions. You have to find the output of these programs and fill them
   in the crossword.
-  <b>Submit only after filling all the answers.</b>
+ *You will have 30 minutes to complete this round.
+ *For each correct answer you will get 7 points.
+ *There is no negative marking.
+ *<b>Submit only after filling all the answers.</b>
+ After submitting the answers you cannot login again.
  <b>Round 2</b>
  This round will be hosted on HACKERRANK
  *Timing:
