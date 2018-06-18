@@ -3,8 +3,6 @@
 
 <head>
     <?php include "includes/bootstrap.php"; ?>
-
-    <link rel="stylesheet" type="text/css" href="Css/index.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="assets/js/index.js"></script>
     <script src="assets/js/particle/typed.js"></script>
@@ -14,14 +12,16 @@
 <body>
 
     <div id="particles-js">
-        <img src="assets/images/logo.png" style="width: 120px;height: 75px;padding:10px;" align="left">
         <div class="container">
+            
+            <div id="logo"><img src="assets/images/logo.png" width="200px" ></div>
             <div class="row">
-                <div class="col-sm-6" id="login">
+                <div class="col-sm-4 col-sm-offset-1" id="login">
                     <div id="typed-strings">
                         <h1>Welcome to</h1>
                         <h1>CrossCode 2.0</h1>
                     </div>
+                    
                     <span id="typed"></span>
                     <script type="text/javascript">
                         var typed = new Typed('#typed', {
@@ -49,34 +49,28 @@
                     </form>
 
                 </div>
-                <div class="col-sm-6" id="rule">
-                    <pre>
-<center><h2>CrossCode 2.0</h2></center>
-<b>Round 1</b>
- *This is the Crossword Round.
- *There are 12 questions. You have to find the output of these programs and fill them
-  in the crossword.
- *You will have 30 minutes to complete this round.
- *For each correct answer you will get 7 points.
- *There is no negative marking.
- *<b>Submit only after filling all the answers.</b>
- After submitting the answers you cannot login again.
- <b>Round 2</b>
- This round will be hosted on HACKERRANK
- *Timing:
- *Guess the Logic from examples
- *Wite the code for the logic
- <b>Score of both rounds will be added and the one with the highest score will be
- declared as the winner</b>
- For any query:
- Contact:Mridul 7251976635                                            Neha 7302469191
-                      </pre>
+                <div class="col-sm-6 col-sm-offset-1" id="rules">
+    
+                        <h2>Rules</h2>
+                        <ol>
+                            <li>This is the Crossword Round.</li>
+                            <li>There are 12 questions. You have to find the output of these programs and fill them in the crossword.</li>
+                            <li>You will have 30 minutes to complete this round.</li>
+                            <li>For each correct answer you will get 1 points.</li>
+                            <li>There is no negative marking.</li>
+                            <li>Submit only after filling all the answers.</li>
+                            <li><strong>After submitting the answers you cannot login again.</strong></li>
+                        
+                        
+                        </ol>
                 </div>
-            </div>
-        </div>
+
         <script src="assets/js/particles.js"></script>
         <script src="assets/js/particle/demo/js/app.js" particle></script>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>

@@ -101,8 +101,9 @@ if(isset($_POST['array12']) && isset($_POST['array13'])){
 }
 
 $_SESSION['points']=$point;
+$time=date('h:i:s');
 $conn = mysqli_connect('localhost','root','','crosscode');
-$isql = "UPDATE `users` SET `score`='".$_SESSION['points']."' WHERE `uname`='".$_SESSION['id']."'";
+$isql = "UPDATE `users` SET `score`='".$_SESSION['points']."', `time`='".$time."' WHERE `uname`='".$_SESSION['id']."'";
 mysqli_query($conn,$isql);
 mysqli_close($conn);
 header("Location:score.php");
