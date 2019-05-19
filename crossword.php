@@ -9,7 +9,7 @@ session_start();
     
     body{
         background-image: /*url("assets/images/scrabble.jpg")*/;
-        background-size:cover;
+        background-image: url("assets/images/bgbody.jpg");
         cursor: pointer;
     }
     .thiscontainer {
